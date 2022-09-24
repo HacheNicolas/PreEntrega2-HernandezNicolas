@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Times New Roman', Times, sans-serif;*/
+}
+
+body{
+    height: auto;
+    background-color: black;
+}
+
+/* Comienza el estilo del header */
+.header{
+    background-color: rgb(153, 153, 255);
+    height: auto;
+    position: sticky;
+    top: 0px;
+}
+.header__nav{
+    width: 100%;
+    padding: 10px;
+}
+.header__nav__fundacion{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+}
+.header__nav__fundacion__logo{
+    display: inline-block;
+    text-align: left;
+    width: 10vh;
+}
+.logoFundacion{
+    height: 100%;
+    width: 100%;
+}
+.header__nav__fundacion__titulo{
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+}
+.header__nav__paginas{
+    text-align: right;
+    display: inline-block;
+    width: 25%;
+    word-spacing: 10px;
+}
+.header__nav__paginas__enlace{
+    text-decoration: none;
+}
+
+/* Comienza el estilo del main */
+.contenedor{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    height: auto;
+}
+.contenedor__inicio{
+    width: 100%;
+    padding: 10px;
+}
+.contenedor__inicio__carousel{
+    padding-bottom: 20px;
+}
+.contenedor__inicio__carousel__imagenes{
+    width: 80%;
+}
+.contenedor__inicio__nosotros{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 60%;
+    display: inline-block;
+}
+.contenedor__inicio__nosotros__separacion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(153, 153, 255);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}
+.contenedor__inicio__nosotros__separacion__descripcion{
+    display: inline-block;
+    width: 49%;
+}
+.contenedor__inicio__nosotros__separacion__imagen{
+    display: inline-block;
+    width: 49%;
+}
+.contenedor__inicio__nosotros__separacion__estadisticas{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 30%;
+}
+.contenedor__inicio__convocatorias{
+    padding: 20px;
+    margin: 5px;
+    width: 35%;
+    display: inline-block;
+    background-color: rgb(165, 255, 153);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.contenedor__inicio__convocatorias__titulo{
+    margin-bottom: 30px;
+}
+.contenedor__inicio__convocatorias__articulo{
+    margin: 10px;
+}
+.contenedor__inicio__convocatorias__articulo__texto{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Comienza el estilo del footer */
+fieldset{
+    border-color: black;
+}
+.footer{
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    padding: 10px;
+    height: auto;
+}
+.footer__section{
+    width: 100%;
+    padding: 10px;
+}
+.footer__section__conocenos{
+    width: 24%;
+    display: inline-block;
+}
+.footer__section__ayudanos{
+    width: 24%;
+    display: inline-block;
+}
+.footer__section__suscribite{
+    width: 24%;
+    display: inline-block;
+}
+.footer__section__contactanos{
+    width: 24%;
+    display: inline-block;
+}
