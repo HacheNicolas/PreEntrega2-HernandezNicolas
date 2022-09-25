@@ -102,6 +102,11 @@ img:focus{
 
 /* Cuando es un celular */
 @media screen and (max-width: 768px) {
+    .col-6{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .col-4{
         width: 100%;
         margin-top: 10px;
