@@ -10,47 +10,16 @@ body{
     background-color: black;
 }
 
-/* Comienza el estilo del header */
-.header{
+/* Estilo del header */
+.headerColor{
     background-color: rgb(153, 153, 255);
-    height: auto;
-    position: sticky;
-    top: 0px;
+    border-bottom: 1px solid black;
 }
-.header__nav{
-    width: 100%;
-    padding: 10px;
-}
-.header__nav__fundacion{
-    display: inline-block;
-    width: 70%;
-    text-align: left;
-}
-.header__nav__fundacion__logo{
-    display: inline-block;
-    text-align: left;
-    width: 10vh;
-}
-.logoFundacion{
-    height: 100%;
-    width: 100%;
-}
-.header__nav__fundacion__titulo{
-    display: inline-block;
-    width: 50%;
-    align-items: center;
-}
-.header__nav__paginas{
-    text-align: right;
-    display: inline-block;
-    width: 25%;
-    word-spacing: 10px;
-}
-.header__nav__paginas__enlace{
-    text-decoration: none;
+.nav-item{
+    padding: 8px;
 }
 
-/* Comienza el estilo del main */
+/* Estilo del main */
 .contenedor{
     margin: 10px;
     padding: 10px;
@@ -59,7 +28,94 @@ body{
     text-align: center;
     height: auto;
 }
-.contenedor__inicio{
+.contenedorSeccion{
+    background-color: rgb(153, 153, 255);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Ubicacion */
+.mapa{
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+/* Contacto */
+.formulario{
+    margin-bottom: 10px;
+}
+
+/* Estilo del footer */
+.footerColor{
+    background-color: rgb(97, 97, 97);
+}
+.contenedorFooter{
+    padding: 10px;
+}
+.articuloFooter{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Animaciones */
+
+.nav-item:hover{
+    transform: scale(1.2);
+    background-color: rgb(165, 255, 153);
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+.nav-item:hover{
+    transform: scale(1.2);
+    background-color: rgb(165, 255, 153);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+    background-color: rgb(165, 255, 153);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+img:hover{
+    transform: scale(1.2);
+    z-index: 10;
+    overflow:hidden;
+    align-self: center;
+}
+img:click{
+    transform: scale(1.5);
+    z-index: 10;
+    overflow:hidden;
+    align-self: center;
+}
+img:focus{
+    transform: scale(1.5);
+    z-index: 10;
+    overflow:hidden;
+    align-self: center;
+}
+
+/* Cuando es un celular */
+@media screen and (max-width: 768px) {
+    .col-4{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .col-3{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+  /* Box modeling del index correspondiente a la primera pre-entrega, no corregir en segunda pre-entrega, en la misma se trabajaron las páginas "colaborar" y "contacto" */
+  .contenedor__inicio{
     width: 100%;
     padding: 10px;
 }
@@ -115,35 +171,4 @@ body{
 .contenedor__inicio__convocatorias__articulo__texto{
     margin-bottom: 10px;
     margin-top: 30px;
-}
-
-/* Comienza el estilo del footer */
-fieldset{
-    border-color: black;
-}
-.footer{
-    background-color: rgb(97, 97, 97);
-    text-align: center;
-    padding: 10px;
-    height: auto;
-}
-.footer__section{
-    width: 100%;
-    padding: 10px;
-}
-.footer__section__conocenos{
-    width: 24%;
-    display: inline-block;
-}
-.footer__section__ayudanos{
-    width: 24%;
-    display: inline-block;
-}
-.footer__section__suscribite{
-    width: 24%;
-    display: inline-block;
-}
-.footer__section__contactanos{
-    width: 24%;
-    display: inline-block;
 }

@@ -5,31 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundación Un Litro De Leche Por Mes Córdoba</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="shortcut icon" href="../favicon.ico">
 </head>
 <body>
 
     <!-- Inicio del encabezado -->
-    <header class="header">
-        <nav class="header__nav">
-            <div class="header__nav__fundacion">
-                <a class="header__nav__fundacion__logo" href="#">
-                <img src="../img/fundacion.png" alt="Logo de la fundación" class="logoFundacion">
-                 </a>
-                <h1 class="header__nav__fundacion__titulo">
-                    Fundación Un<br>Litro De Leche<br>Por Mes Córdoba
-                </h1>
-            </div>
-            <div class="header__nav__paginas">
-                <a class="header__nav__paginas__enlace" href="../index.html">INICIO</a>
-                <a class="header__nav__paginas__enlace" href="./nosotros.html">NOSOTROS</a>
-                <a class="header__nav__paginas__enlace" href="#">NOTICIAS</a>
-                <a class="header__nav__paginas__enlace" href="./colaborar.html">COLABORAR</a>
-                <a class="header__nav__paginas__enlace" href="./contacto.html">CONTACTO</a>
+    <header class="headerColor container-fluid sticky-top animate__animated animate__fadeInDown">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="../index.html">
+                    <img src="../img/fundacion-sinfondo.png" alt="Logo de la fundación" width="100">
+                </a>
+                <h3 class=""> Fundación Un<br>Litro De Leche<br>Por Mes Córdoba </h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link fs-5" href="./nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./colaborar.html">COLABORAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+
     <!-- Inicio del cuerpo principal de la página -->
     <main class="contenedor">
         <section class="contenedor__noticias">
@@ -101,61 +117,59 @@
             </article>
         </section>
     </main>
+
     <!-- Inicio pie de página -->
-    <footer class="footer">
-        <section class="footer__section">
-            <fieldset class="footer__section__conocenos">
-                <legend>
-                    Conocenos
-                </legend>
-                Somos un grupo solidario conformado por amigos, familiares y vecinos de Córdoba, sin banderas políticas ni religiosas, que, ante las tantas necesidades de muchas personas, decidimos en el año 2009 poner manos a la obra, con el único fin de ayudar al prójimo.
-            </fieldset>
-            <fieldset class="footer__section__ayudanos">
-                <legend>
-                    Ayudanos
-                </legend>
-                Hazte socio contactándonos. <br>
-                Sé voluntario contactándonos. <br>
-                Doná por CBU: UN.LITRO <br>
-                Doná por MP: fundacion.un.litro
-            </fieldset>
-            <fieldset class="footer__section__suscribite">
-                <legend>
-                    Suscribite
-                </legend>
-                Enterate de nuestras últimas novedades.
-                <form action="">
-                    <div>
+    <footer class="footerColor">
+        <section class="row w-100 align-items-center contenedorFooter">
+            <article class="col-3 text-center animate__animated animate__fadeInUp">
+                <div class="articuloFooter">
+                    <h3> Conocenos </h3>
+                    <p>Somos un grupo solidario conformado por amigos, familiares y vecinos de Córdoba, sin banderas políticas ni religiosas, que, ante las tantas necesidades de muchas personas, decidimos en el año 2009 poner manos a la obra, con el único fin de ayudar al prójimo.</p>
+                </div> 
+            </article>
+            <article class="col-3 text-center">
+                <div class="articuloFooter animate__animated animate__fadeInUp">
+                    <h3> Ayudanos </h3>
+                    <p> Hazte socio contactándonos. <br>
+                        Sé voluntario contactándonos. <br>
+                        Doná por CBU: UN.LITRO <br>
+                        Doná por MP: fundacion.un.litro</p>
+                </div>
+            </article>
+            <article class="col-3 text-center">
+                <div class="articuloFooter animate__animated animate__fadeInUp">
+                    <h3> Suscribite </h3>
+                    <p>Enterate de nuestras últimas novedades.</p>
+                    <form action="">
                         <input type="text" placeholder="Ingrese su e-mail" required>
-                    </div>
-                    <div>
                         <input type="submit" value="Enviar">
-                    </div>
-                </form>
-            </fieldset>
-            <fieldset class="footer__section__contactanos">
-                <legend>
-                    Contactanos
-                </legend>
-                <a href="">
-                    <img src="../img/iconoWhatsapp.png" alt="Logo con enlace a Whatsapp">
-                </a>
-                <a href="">
-                    <img src="../img/iconoInstagram.png" alt="Logo con enlace a Instagram">
-                </a>
-                <a href="">
-                    <img src="../img/iconoFacebook.png" alt="Logo con enlace a Facebook">
-                </a>
-                <a href="">
-                    <img src="../img/iconoCorreo.png" alt="Logo con enlace al correo electrónico">
-                </a>
-                <a href="">
-                    <img src="../img/iconoUbicacion.png" alt="Logo con enlace a la ubicación de la fundación">
-                </a>
-            </fieldset>
+                    </form>
+                </div>
+            </article>
+            <article class="col-3 text-center">
+                <div class="articuloFooter animate__animated animate__fadeInUp">
+                    <h3> Contactanos </h3>
+                    <a href="">
+                        <img src="../img/iconoWhatsapp.png" alt="Logo con enlace a Whatsapp">
+                    </a>
+                    <a href="">
+                        <img src="../img/iconoInstagram.png" alt="Logo con enlace a Instagram">
+                    </a>
+                    <a href="">
+                        <img src="../img/iconoFacebook.png" alt="Logo con enlace a Facebook">
+                    </a>
+                    <a href="">
+                        <img src="../img/iconoCorreo.png" alt="Logo con enlace al correo electrónico">
+                    </a>
+                    <a href="">
+                        <img src="../img/iconoUbicacion.png" alt="Logo con enlace a la ubicación de la fundación">
+                    </a>
+                </div>
+            </article>
         </section>
     </footer>
-    <!-- Fin pie de página -->
 
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
