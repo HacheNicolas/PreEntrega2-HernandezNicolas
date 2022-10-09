@@ -1,0 +1,43 @@
+/* Estilo del main */
+.contenedor{
+    margin: 10px;
+    padding: 10px;
+    background: $fondoPrincipal;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: $radio;
+    text-align: center;
+    height: auto;
+    .contenedorSeccion{
+        background-color: map-get($colores, primario);
+        border: map-get($bordes, negro);
+        border-radius: $radio;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .contenidoSeccion{
+            background-color: map-get($colores, secundario);
+            border: map-get($bordes, negro);
+            border-radius: $radio;
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .adjuntoTarjeta{
+            width: 100%;
+            height: 100%;
+        }
+        /* Ubicacion */
+        .mapa{
+            width: 100%;
+            height: 40vh;
+            /*overflow: hidden;*/
+        }
+        /* Contacto */
+        .formulario{
+            margin-bottom: 10px;
+        }
+    }
+}

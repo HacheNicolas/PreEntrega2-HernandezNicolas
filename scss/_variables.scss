@@ -1,0 +1,17 @@
+$fondoPrincipal: radial-gradient(circle, rgba(235,235,235,1) 0%, rgba(221,221,221,0.0984768907563025) 70%, rgba(182,182,182,1) 100%), url(../img/backgroundPrincipalGrande.jpg);
+$radio: 8px;
+
+/* Mapa para colores */
+$colores:(
+    primario: rgb(153, 153, 255),
+    secundario: rgb(153, 234, 147),
+    gris: rgb(122, 122, 122),
+    blanco: white,
+    negro: black,
+);
+
+/* Mapa para bordes */
+$bordes:(
+    negro:  1px solid black,
+    blanco: 1px solid white,
+);

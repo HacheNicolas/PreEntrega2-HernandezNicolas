@@ -1,0 +1,47 @@
+/* Animaciones */
+
+header{
+    .nav-item{
+        a{
+            &:hover{
+                @include animacionNav;
+            }
+            &:focus{
+                @include animacionNav;
+            }
+        }
+    }
+    img{
+        &:hover{
+            @include animacionImgZoom;
+        }
+        &:focus{
+            @include animacionImgZoom;
+        }
+    }
+}
+
+footer{
+    img{
+        &:hover{
+            @include animacionImgZoom;
+        }
+        &:focus{
+            @include animacionImgZoom;
+        }
+    }
+}
+
+/* Resaltado de todas las imagenes del documento */
+.contenedor{
+    .contenedorSeccion{
+        .adjuntoTarjeta{
+            &:hover{
+                border: map-get($bordes , blanco);
+            }
+            &:focus{
+                border: map-get($bordes , blanco);
+            }
+        }
+    }    
+}

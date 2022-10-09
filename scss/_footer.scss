@@ -1,0 +1,14 @@
+/* Estilo del footer */
+.footerColor{
+    background-color: map-get($colores, gris);
+    border-top: map-get($bordes, negro);
+    .contenedorFooter{
+        padding: 10px;
+        .articuloFooter{
+            height: 100%;
+            border: map-get($bordes, negro);
+            border-radius: $radio;
+            padding: 10px;
+        }
+    }
+}
