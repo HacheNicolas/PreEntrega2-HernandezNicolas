@@ -48,9 +48,23 @@ body {
       padding: 20px;
       margin-top: 10px;
       margin-bottom: 10px; }
+    .contenedor .contenedorSeccion .contenidoNoticia {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .contenedor .contenedorSeccion .imagenNoticia {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
     .contenedor .contenedorSeccion .adjuntoTarjeta {
       width: 100%;
       height: 100%; }
+    .contenedor .contenedorSeccion .adjuntoNoticiaGrande {
+      width: 80%;
+      height: 80%; }
+    .contenedor .contenedorSeccion .adjuntoNoticiaPequeña {
+      width: 100%; }
     .contenedor .contenedorSeccion .mapa {
       width: 100%;
       height: 40vh;
@@ -124,7 +138,6 @@ body {
 
 /* Animaciones */
 header .nav-item a:hover {
-  transform: scale(1.2);
   background-color: #99ea93;
   border: 1px solid black;
   border-radius: 8px;
@@ -134,7 +147,6 @@ header .nav-item a:hover {
   overflow: hidden; }
 
 header .nav-item a:focus {
-  transform: scale(1.2);
   background-color: #99ea93;
   border: 1px solid black;
   border-radius: 8px;

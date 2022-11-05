@@ -1,6 +1,5 @@
 /* Mixin para animación de la navegación */
 @mixin animacionNav() {
-    transform: scale(1.2);
     background-color: map-get($colores, secundario);
     border: map-get($bordes, negro);
     border-radius: $radio;
